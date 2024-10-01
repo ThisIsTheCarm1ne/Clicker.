@@ -1,11 +1,11 @@
 // Component to get referrer id from URL
 "use client";
 
-import getReferrerId from "@/lib/getReferrerId";
+import GetReferrerId from "@/lib/GetReferrerId";
 
 export default function CodeForm() {
 
-  console.log(getReferrerId());
+  console.log(GetReferrerId());
 
   return (
     <>

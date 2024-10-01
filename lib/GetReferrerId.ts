@@ -4,7 +4,7 @@
 
 import { useSearchParams } from 'next/navigation';
 
-export default function getReferrerId() {
+export default function GetReferrerId() {
   const refId = useSearchParams().get('ref');
 
   if (!refId) {
